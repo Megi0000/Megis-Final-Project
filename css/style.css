@@ -21,7 +21,8 @@ nav {
   align-items: center;
 }
 .menuitem {
-  font-size: 25px;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
 }
 a {
   color: #faf1e4;
@@ -34,8 +35,7 @@ a {
 button {
   border-radius: 0.25rem;
   text-transform: uppercase;
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Cinzel', serif;
   padding-left: 25px;
   padding-right: 25px;
   color: #fff;
@@ -78,7 +78,8 @@ button:hover {
 .dropdown {
   position: relative;
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
 }
 .fa-chevron-down {
   margin-left: 5px;
@@ -144,12 +145,15 @@ button:hover {
   font-size: 70px;
   color: #acbe96;
   line-height: 100px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 span {
   font-size: 100px;
   letter-spacing: 10px;
   color: rgb(30, 68, 55);
   text-shadow: 1px 1px 10px #fff;
+  font-family: 'Emilys Candy', cursive;
 }
 .fa-caret-down {
   font-size: 40px;
@@ -195,6 +199,8 @@ span {
 .card-title {
   margin-top: 20px;
   font-size: 24px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 
 .card-description {
@@ -221,6 +227,8 @@ span {
   font-size: 30px;
   text-align: center;
   text-shadow: 2px 2px 2px #000000;
+  font-family: 'Cinzel', serif;  
+  font-weight: bold;
 }
 .card-extra h4 {
   color: #faf1e4;
@@ -228,6 +236,7 @@ span {
   text-align: center;
   text-shadow: 2px 2px 2px #000000;
   margin: 15px 0 15px 0;
+  font-family: 'Cinzel', serif;  
 }
 .fa-facebook,
 .fa-linkedin,
@@ -266,6 +275,8 @@ span {
   font-size: 50px;
   color: #435334;
   padding-top: 150px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 .description {
   display: flex;
@@ -274,9 +285,13 @@ span {
 }
 .description p {
   width: 50%;
-  font-size: 22px;
-  line-height: 30px;
-  padding: 30px 50px 0 100px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  padding: 30px 30px 0 100px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  color: #27311d;
 }
 .description img {
   box-shadow: 3px 3px 30px #000000;
@@ -318,6 +333,7 @@ span {
   color: #cecece;
   text-align: center;
   padding-top: 20px;
+  font-family: 'Cinzel', serif;
 }
 .comentcard1 p {
   font-size: 18px;
@@ -326,6 +342,8 @@ span {
   margin-top: 15px;
   line-height: 22px;
   padding: 15px;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
 }
 
 /* footer */
@@ -354,22 +372,27 @@ span {
 }
 .column2 h3 {
   font-size: 30px;
+  font-family: 'Cinzel', serif;
   color: #faf1e4;
   margin-bottom: 20px;
 }
 .menu {
   font-size: 20px;
   line-height: 35px;
+  font-family: 'Cinzel', serif;
 }
 .column3 h3 {
   font-size: 30px;
   color: #faf1e4;
   margin-bottom: 20px;
+  font-family: 'Cinzel', serif;
 }
 .column3 li {
   font-size: 18px;
   line-height: 35px;
   color: #faf1e4;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
 }
 .column3 i {
   font-size: 18px;
@@ -411,10 +434,12 @@ span {
   position: absolute;
   text-align: center;
   left: 800px;
-  top: 150px;
+  top: 100px;
+  font-weight: bold;
   font-size: 70px;
   color: #acbe96;
   line-height: 90px;
+  font-family: 'Cinzel', serif;  
 }
 .contactheadericon {
   width: 100%;
@@ -465,12 +490,22 @@ input[type="submit"]:hover {
   text-align: center;
   margin: 100px 0 50px 0;
 }
+
+#destination
+
+
 /* destination page */
-.subtitle {
-  font-size: 30px;
-  text-align: center;
-  margin: 100px 0 50px 0;
+ .subtitles {
+  margin: 0 0 0 0;
+}
+/* ვერ ვიგებ ამ კოდის წაშლისას შლის destinationssss-ის სტილებს ვერ ვიგებ რა კავშირშია */
+.destinationssss{
+   font-size: 30px;
+  text-align: center; 
   color: #27311d;
+  font-family: 'Cinzel', serif;
+  font-weight: bold; 
+  margin: 100px 0 50px 0;
 }
 .dessription {
   display: flex;
@@ -486,6 +521,10 @@ input[type="submit"]:hover {
   line-height: 25px;
   color: #27311d;
   margin: 20px 0 20px 0;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: 400;
 }
 .destinationimg {
   width: 50%;
@@ -503,6 +542,9 @@ input[type="submit"]:hover {
   font-size: 20px;
   color: #27311d;
   line-height: 25px;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 .dessription2 {
   display: flex;
@@ -528,11 +570,18 @@ input[type="submit"]:hover {
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 10%;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: 400;
 }
 .destination2descr li {
   font-size: 20px;
   color: #27311d;
   line-height: 25px;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 .destsection5 {
   margin-bottom: 150px;
