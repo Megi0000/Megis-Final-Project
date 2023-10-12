@@ -8,5 +8,14 @@ document.querySelector('.card').addEventListener('mouseover', function() {
   document.querySelector('.card-image').style.transform = 'scale(1)';
  });
 
-//  dropdown submenus
+// burgerbar
+let navBar = document.getElementById('navBar');
+let burgerBar = document.getElementById('burger');
+
+burgerBar.addEventListener('click', function() {
+  navBar.classList.toggle('activeNav');
+  
+})
+
+// 
 
